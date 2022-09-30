@@ -1,0 +1,393 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/entry-home/entryHome",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+
+    {
+      "path": "pages/webview/webview",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+
+    {
+      "path": "pages/garbageClassification/DisasterPreventionHome/DisasterPreventionHome",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/VoluntaryService/VoluntaryService",
+      "style": {
+        "navigationBarTitleText": "志愿服务"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/VoluntaryService/componnents/DemandDetail/DemandDetail",
+      "style": {
+        "navigationBarTitleText": "需求详情"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/VoluntaryService/componnents/ServiceList/ServiceList",
+      "style": {
+        "navigationBarTitleText": "服务清单"
+      }
+    },
+    {
+      "path": "pages/activation/activation",
+      "style": {
+        "navigationBarTitleText": "激活"
+      }
+    },
+
+    {
+      "path": "pages/garbageClassification/garbageSorting/inspection-index",
+      "style": {
+        "navigationBarTitleText": "巡查任务"
+      }
+    },
+    {
+      "path": "pages/cityManagementInspection/inspection/inspection-index",
+      "style": {
+        "navigationBarTitleText": "巡查任务"
+      }
+    },
+
+    {
+      "path": "pages/cityManagementInspection/inspection/modules/inspection-detail/inspection-detail",
+      "style": {
+        "navigationBarTitleText": "任务详情"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/garbageSorting/modules/inspection-detail/inspection-detail",
+      "style": {
+        "navigationBarTitleText": "任务详情"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/dangerReport/dangerReport",
+      "style": {
+        "navigationBarTitleText": "隐患报告"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/dangerReport/components/reportedRecord",
+      "style": {
+        "navigationBarTitleText": "上报记录"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/taskManagement/taskManagement",
+      "style": {
+        "navigationBarTitleText": "任务管理"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/taskManagement/components/taskWarningDetail",
+      "style": {
+        "navigationBarTitleText": "任务详情"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/taskManagement/components/dangerDetails",
+      "style": {
+        "navigationBarTitleText": "风险隐患详情"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/taskManagement/components/careDetails",
+      "style": {
+        "navigationBarTitleText": "脆弱人群详情"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/mutualAssistance/mutualAssistance",
+      "style": {
+        "navigationBarTitleText": "关爱互助"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/mutualAssistance/components/searchCaregivers",
+      "style": {
+        "navigationBarTitleText": "添加脆弱人群"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/PublicityNotice/PublicityNotice",
+      "style": {
+        "navigationBarTitleText": "宣传公告"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/PublicityNotice/components/DetailedInformation",
+      "style": {
+        "navigationBarTitleText": "详细信息"
+      }
+    },
+    // 城管巡查的
+    {
+      "path": "pages/cityManagementInspection/inspection/modules/inspection-start/inspection-start",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    },
+
+    // 垃圾分类的
+    {
+      "path": "pages/garbageClassification/garbageSorting/modules/inspection-rubbish/inspection-rubbish",
+      "style": {
+        "navigationBarTitleText": "垃圾分类投放点"
+      }
+    },
+
+    {
+      "path": "pages/garbageClassification/suggestions/suggestions",
+      "style": {
+        "navigationBarTitleText": "我来监督"
+      }
+    },
+
+    {
+      "path": "pages/garbageClassification/garbageSorting/modules/inspection-history/inspection-history",
+      "style": {
+        "navigationBarTitleText": "历史巡查记录"
+      }
+    },
+
+    {
+      "path": "pages/publicPage/notification/notification",
+      "style": {
+        "navigationBarTitleText": "通知通报"
+      }
+    },
+    {
+      "path": "pages/publicPage/notification/modules/notification-detail",
+      "style": {
+        "navigationBarTitleText": "通知公告"
+      }
+    },
+    {
+      "path": "pages/tip-pages/tip-pages",
+      "style": {
+        "navigationBarTitleText": "暂无权限"
+      }
+    },
+    {
+      "path": "pages/userInfo/userInfo",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/custom-components/search/search",
+      "style": {
+        "navigationBarTitleText": "搜索"
+      }
+    },
+    {
+      "path": "pages/publicPage/workOrderManagement/modules/workOrderManagement-detail",
+      "style": {
+        "navigationBarTitleText": "工单详情"
+      }
+    },
+    {
+      "path": "pages/publicPage/workOrderManagement/workOrderManagement",
+      "style": {
+        "navigationBarTitleText": "工单管理"
+      }
+    },
+    {
+      "path": "pages/publicPage/workOrderManagement/modules/workOrderForward",
+      "style": {
+        "navigationBarTitleText": "工单选择"
+      }
+    },
+    {
+      "path": "pages/publicPage/problem-report/problem-report",
+      "style": {
+        "navigationBarTitleText": "巡查报告"
+      }
+    },
+    {
+      "path": "pages/cityManagementInspection/siginByMap/siginByMap",
+      "style": {
+        "navigationBarTitleText": "打卡签到"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/siginByMap/siginByMap",
+      "style": {
+        "navigationBarTitleText": "打卡签到"
+      }
+    },
+    {
+      "path": "pages/custom-components/screen/screen",
+      "style": {
+        "navigationBarTitleText": "筛选"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/garbageSorting/modules/inspection-rubbish/component/CleaningKilling/CleaningKilling",
+      "style": {
+        "navigationBarTitleText": "保洁消杀"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/garbageSorting/modules/inspection-rubbish/component/BarrelReceivingRegistration/BarrelReceivingRegistration",
+      "style": {
+        "navigationBarTitleText": "收桶登记"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/garbageSorting/modules/inspection-rubbish/component/CheckList/CheckList",
+      "style": {
+        "navigationBarTitleText": "检查清单"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/siginByMap/components/SignRecord/SignRecord",
+      "style": {
+        "navigationBarTitleText": "签到记录"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/siginByMap/components/SignRecord/components/SignDetail",
+      "style": {
+        "navigationBarTitleText": "签到详情"
+      }
+    },
+    {
+      "path": "pages/publicPage/account-registration/accountRegistration",
+      "style": {
+        "navigationBarTitleText": "账号注册"
+      }
+    },
+    {
+      "path": "pages/publicPage/workOrderManagement/modules/forwardWorkOrderManagement",
+      "style": {
+        "navigationBarTitleText": "转发工单"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/collectionTransportationReport/collectionTransportationReport",
+      "style": {
+        "navigationBarTitleText": "收运报告"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/garbageSorting/modules/inspection-history/inspection-history-record",
+      "style": {
+        "navigationBarTitleText": "巡查记录"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/ProblemReporting/ProblemReporting",
+      "style": {
+        "navigationBarTitleText": "问题上报"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/ProblemReporting/IssueReport",
+      "style": {
+        "navigationBarTitleText": "问题上报"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/ProblemReporting/drafts",
+      "style": {
+        "navigationBarTitleText": "草稿箱"
+      }
+    },
+    {
+      "path": "pages/custom-components/sort/sort",
+      "style": {
+        "navigationBarTitleText": "排序"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/LeaderBoard/LeaderBoard",
+      "style": {
+        "navigationBarTitleText": "领导看板"
+      }
+    },
+    {
+      "path": "pages/garbageClassification/LeaderBoard/SecondaryClassificationBoard",
+      "style": {
+        "navigationBarTitleText": "二级分类看板"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#0091FF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/img/tabBar/home-page.png",
+        "selectedIconPath": "static/img/tabBar/selected-home-page.png"
+      },
+      {
+        "pagePath": "pages/userInfo/userInfo",
+        "text": "个人中心",
+        "iconPath": "static/img/tabBar/personal-center.png",
+        "selectedIconPath": "static/img/tabBar/selected-personal-center.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "usingComponents": {
+      "van-cell": "/wxcomponents/vant/dist/cell/index",
+      "van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
+      "van-tab": "/wxcomponents/vant/dist/tab/index",
+      "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+      "van-field": "/wxcomponents/vant/dist/field/index",
+      "van-button": "/wxcomponents/vant/dist/button/index",
+      "van-count-down": "/wxcomponents/vant/dist/count-down/index",
+      "van-search": "/wxcomponents/vant/dist/search/index",
+      "van-icon": "/wxcomponents/vant/dist/icon/index",
+      "van-popup": "/wxcomponents/vant/dist/popup/index",
+      "van-uploader": "/wxcomponents/vant/dist/uploader/index",
+      "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+      "van-radio": "/wxcomponents/vant/dist/radio/index",
+      "van-loading": "/wxcomponents/vant/dist/loading/index",
+      "van-dropdown-menu": "/wxcomponents/vant/dist/dropdown-menu/index",
+      "van-dropdown-item": "/wxcomponents/vant/dist/dropdown-item/index",
+      "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+      "van-image": "/wxcomponents/vant/dist/image/index",
+      "van-empty": "/wxcomponents/vant/dist/empty/index",
+      "van-action-sheet": "/wxcomponents/vant/dist/action-sheet/index",
+      "van-picker": "/wxcomponents/vant/dist/picker/index",
+      // "van-popover": "/wxcomponents/vant/dist/popover/index",
+      // 这个是二次封装的van-datetime-picker组件 新增了年的展示 之后都可以用这个
+      "van-datetime-picker-plus": "/wxcomponents/vant/dist/datetime-picker-plus/index",
+      "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+      "van-stepper": "/wxcomponents/vant/dist/stepper/index",
+      "van-checkbox": "/wxcomponents/vant/dist/checkbox/index",
+      "van-checkbox-group": "/wxcomponents/vant/dist/checkbox-group/index",
+      // tooltip 是我自己新增的 目前github仓库并没有这个的实现
+      "van-tooltip": "/wxcomponents/vant/dist/tooltip/index",
+      "van-tree-select": "/wxcomponents/vant/dist/tree-select/index",
+      "van-dialog": "/wxcomponents/vant/dist/dialog/index"
+    }
+  }
+}
